@@ -62,7 +62,7 @@ A empresa está desenvolvendo um novo BI e para isso necessita instalar uma nova
       docker-compose -f application.yaml up
       docker run -d -p 3000:3000 --name metabase metabase/metabase 
 
-**URL DEFAUTL**: (http://0.0.0.0:3000/setup/)
+**URL DEFAULT**: (http://0.0.0.0:3000/setup/)
 
 **Comandos para orquestração dos Containers** 
 
