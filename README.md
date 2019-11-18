@@ -1,10 +1,10 @@
 # vortex - Show me the Code 
 Project-Vortex
 
-** Dependencias ** 
+**Dependencias** 
 
-# DOCKER 
-# DOCKER COMPOSE 
+* DOCKER 
+* DOCKER COMPOSE 
 
 
 **Estrutura do arquivmo application.yaml** 
