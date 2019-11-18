@@ -7,7 +7,7 @@ Project-Vortex
 # DOCKER COMPOSE 
 
 
-**Estrutura do arquivmo application.yaml ** 
+**Estrutura do arquivmo application.yaml** 
 
 
       version: '3.4'
@@ -32,7 +32,7 @@ Project-Vortex
       
 
 
-**Comandos para orquestração dos Containers 
+**Comandos para orquestração dos Containers** 
 
 docker ps -a listar os containers 
 docker rm -f | remover containers 
@@ -40,7 +40,7 @@ docker image list lista Imagens
 docker rmi Remover Imagens 
 
 
-**Utilização de plataforma
+**Utilização de plataforma**
 
 Poderiamos utilizar tais plataformas para utilização deste cenário, para montar o pipeline: 
 
@@ -55,7 +55,7 @@ Poderiamos utilizar tais plataformas para utilização deste cenário, para mont
 
 Poderiamos instalar a ferramenta jenkins em um container juntamente o repositório GITLAB, pois por ser openSource, conseguimos subir uma aplicação de um repositorio git localmente em nosso servidor, assim poderiamos configurar o Jenkins utilizando através de seus plugins, para que possamos montar o pipeline de "deployment" se conectandp com o repositório e configurar as triggers para o deploy da aplicação com base nos pull request e merge request. 
 
-**Exemplo do Trecho do arquivo applicantion.yaml  com as configurações de inicialização dos containers // 
+**Exemplo do Trecho do arquivo applicantion.yaml  com as configurações de inicialização dos containers** 
 
          jenkins: 
            image: jenkins
