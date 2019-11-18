@@ -59,7 +59,7 @@ A empresa está desenvolvendo um novo BI e para isso necessita instalar uma nova
 **Deploy e inicialização aplicação Metabase**
 
 
-      docker-compose -f aplication.yaml up
+      docker-compose -f application.yaml up
       docker run -d -p 3000:3000 --name metabase metabase/metabase 
 
 
