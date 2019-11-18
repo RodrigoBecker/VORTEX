@@ -1,5 +1,10 @@
 # vortex - Show me the Code 
-Project-Vortex
+
+**Cenário:**
+A empresa está desenvolvendo um novo BI e para isso necessita instalar uma nova ferramenta de gestão e visualização dos dados.
+
+
+
 
 **Dependencias** 
 
