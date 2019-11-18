@@ -51,7 +51,7 @@ Poderiamos utilizar tais plataformas para utilização deste cenário, para mont
  * TRAVIS CI
 
 
- || Cenário de CI | CD || 
+ **Cenário de CI|CD *
 
 Poderiamos instalar a ferramenta jenkins em um container juntamente o repositório GITLAB, pois por ser openSource, conseguimos subir uma aplicação de um repositorio git localmente em nosso servidor, assim poderiamos configurar o Jenkins utilizando através de seus plugins, para que possamos montar o pipeline de "deployment" se conectandp com o repositório e configurar as triggers para o deploy da aplicação com base nos pull request e merge request. 
 
