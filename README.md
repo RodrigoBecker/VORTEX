@@ -44,11 +44,11 @@ docker rmi Remover Imagens
 
 Poderiamos utilizar tais plataformas para utilização deste cenário, para montar o pipeline: 
 
- *HEROKU 
- *AMAZON ELASTIC BENS STALCK 
- *AZURE 
- *JENKINS 
- *TRAVIS CI
+ * HEROKU 
+ * AMAZON ELASTIC BENS STALCK 
+ * AZURE 
+ * JENKINS 
+ * TRAVIS CI
 
 
  || Cenário de CI | CD || 
