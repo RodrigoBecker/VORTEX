@@ -56,8 +56,10 @@ A empresa está desenvolvendo um novo BI e para isso necessita instalar uma nova
            - MYSQL_DATABASE=app_metabase
       
 
-**Deploy aplicação Metabase**
+**Deploy e inicialização aplicação Metabase**
 
+
+      docker-compose -f aplication.yaml up
       docker run -d -p 3000:3000 --name metabase metabase/metabase 
 
 
