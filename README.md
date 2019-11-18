@@ -34,10 +34,10 @@ Project-Vortex
 
 **Comandos para orquestração dos Containers** 
 
-docker ps -a listar os containers 
-docker rm -f | remover containers 
-docker image list lista Imagens 
-docker rmi Remover Imagens 
+            docker ps -a listar os containers 
+            docker rm -f | remover containers 
+            docker image list lista Imagens 
+            docker rmi Remover Imagens 
 
 
 **Utilização de plataforma**
