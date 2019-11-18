@@ -1,0 +1,22 @@
+
+version: '3.4'
+services: 
+
+   app_metabase:
+      image: metabase/metabase
+      container_name: matabase_app
+      hostname: app-metabase
+      ports:
+        - "8080:8080"
+      depends_on:
+        - database
+
+   database: 
+     image: mysql
+     container_name: database
+     environment:
+     - MYSQL_USER=root
+     - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+     - MYSQL_DATABASE=app_metabase
+      
+
