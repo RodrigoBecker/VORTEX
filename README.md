@@ -10,25 +10,25 @@ Project-Vortex
 ** Estrutura do arquivmo application.yaml ** 
 
 
-version: '3.4'
-services: 
+      version: '3.4'
+      services: 
 
-   app_metabase:
-      image: metabase/metabase
-      container_name: matabase_app
-      hostname: app-metabase
-      ports:
-        - "8080:8080"
-      depends_on:
-        - database
+         app_metabase:
+            image: metabase/metabase
+            container_name: matabase_app
+            hostname: app-metabase
+            ports:
+              - "8080:8080"
+            depends_on:
+              - database
 
-   database: 
-     image: mysql
-     container_name: database
-     environment:
-     - MYSQL_USER=root
-     - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-     - MYSQL_DATABASE=app_metabase
+         database: 
+           image: mysql
+           container_name: database
+           environment:
+           - MYSQL_USER=root
+           - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+           - MYSQL_DATABASE=app_metabase
       
 
 
@@ -57,22 +57,22 @@ Poderiamos instalar a ferramenta jenkins em um container juntamente o repositór
 
 // Exemplo do Trecho do arquivo applicantion.yaml  com as configurações de inicialização dos containers // 
 
-   jenkins: 
-     image: jenkins
-     container_name: jenkins
-     hostname: serve-jenkins
-     ports:
-        - "8080:8080"
-        - "50000:50000"
-     
-      
-   gitlab: 
-      image: gitlab/gitlab-ce
-      container_name: gitlab
-      hostname: gitlab
-      ports:
-       - "80:80"
-       - "443:443"
-       - "22:22"
+         jenkins: 
+           image: jenkins
+           container_name: jenkins
+           hostname: serve-jenkins
+           ports:
+              - "8080:8080"
+              - "50000:50000"
+
+
+         gitlab: 
+            image: gitlab/gitlab-ce
+            container_name: gitlab
+            hostname: gitlab
+            ports:
+             - "80:80"
+             - "443:443"
+             - "22:22"
 
 
